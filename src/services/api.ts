@@ -15,7 +15,7 @@ const StatusCodeMapping: Record<number, boolean> = {
 
 const shouldDisplayError = (response: AxiosResponse) => !!StatusCodeMapping[response.status];
 
-const BASE_URL = 'https://14.design.pages.academy/six-cities';
+const BASE_URL = 'https://14.design.htmlacademy.pro/six-cities';
 
 const TIMEOUT_DURATION = 5000;
 
