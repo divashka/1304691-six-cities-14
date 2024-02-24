@@ -6,8 +6,8 @@ import useMap from '../../hooks/use-map';
 import { Location } from '../../types/types';
 import { memo } from 'react';
 
-const URL_MARKER_DEFAULT = './markup/img/pin.svg';
-const URL_MARKER_CURRENT = './markup/img/pin-active.svg';
+const URL_MARKER_DEFAULT = 'markup/img/pin.svg';
+const URL_MARKER_CURRENT = 'markup/img/pin-active.svg';
 
 type MapProps = {
   block: string;
